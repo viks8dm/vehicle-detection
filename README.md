@@ -1,6 +1,6 @@
-#**Self-Driving Car Engineer Nanodegree** 
+# **Self-Driving Car Engineer Nanodegree** 
 
-##Project-5: Vehicle Detection and Tracking
+## Project-5: Vehicle Detection and Tracking
 
 [image1]: ./output_images/sample_images.jpg "Car and non-car samples"
 [image2]: ./output_images/hog_car_image_32.jpg "HOG of car image (orientation=32)"
@@ -18,7 +18,7 @@
 [image14]: ./output_images/vehicle_and_lane_image.jpg "Final image with vehicles marked & lanes identified"
 
 
-###Project Goals
+### Project Goals
 
 The goals / steps of this project are as follows:
 
@@ -49,7 +49,7 @@ The goals / steps of this project are as follows:
 
 ---
 
-###Histogram of Oriented Gradients (HOG) & Model Training
+### Histogram of Oriented Gradients (HOG) & Model Training
 
 In order to train the model, I tried various combinations of parameters and methods and tested different cases over a couple of weeks. To start with, I read car and non-car images and plotted a few with different color spaces to familiarize myself with the training data set I was dealing with.
 
@@ -90,7 +90,7 @@ NOTES:
 ---
 
 
-###Sliding Window Search
+### Sliding Window Search
 
 
 Once the model is trained a sliding window search is run on the bottom half of the image to find cars in the image (`find_cars()` under `vehicle_detection.py` is the main script for this. It call others modules like `extract_features()`, `slide_window()`, etc. which are all part of `vehicle_detection.py`).
@@ -142,7 +142,7 @@ I am attaching videos for two difference set of scales I experimented with and w
 
 ---
 
-###Discussion
+### Discussion
 
 * Developing a robust vehicle-detection method seems like a balancing act, where endless tuning of so many different parameters is needed to arrive at a failry ok schele.
 
